@@ -1,0 +1,308 @@
+<!DOCTYPE QtCreatorProject>
+<qtcreator>
+ <data>
+  <variable>ProjectExplorer.Project.ActiveTarget</variable>
+  <value type="int">0</value>
+ </data>
+ <data>
+  <variable>ProjectExplorer.Project.EditorSettings</variable>
+  <valuemap type="QVariantMap">
+   <value key="EditorConfiguration.Codec" type="QByteArray">System</value>
+  </valuemap>
+ </data>
+ <data>
+  <variable>ProjectExplorer.Project.Target.0</variable>
+  <valuemap type="QVariantMap">
+   <value key="ProjectExplorer.ProjectConfiguration.DisplayName" type="QString">Desktop</value>
+   <value key="ProjectExplorer.ProjectConfiguration.Id" type="QString">Qt4ProjectManager.Target.DesktopTarget</value>
+   <value key="ProjectExplorer.Target.ActiveBuildConfiguration" type="int">0</value>
+   <value key="ProjectExplorer.Target.ActiveRunConfiguration" type="int">11</value>
+   <valuemap key="ProjectExplorer.Target.BuildConfiguration.0" type="QVariantMap">
+    <valuemap key="ProjectExplorer.BuildConfiguration.BuildStep.0" type="QVariantMap">
+     <value key="ProjectExplorer.ProjectConfiguration.DisplayName" type="QString">qmake</value>
+     <value key="ProjectExplorer.ProjectConfiguration.Id" type="QString">QtProjectManager.QMakeBuildStep</value>
+     <valuelist key="QtProjectManager.QMakeBuildStep.QMakeArguments" type="QVariantList"/>
+    </valuemap>
+    <valuemap key="ProjectExplorer.BuildConfiguration.BuildStep.1" type="QVariantMap">
+     <value key="ProjectExplorer.ProjectConfiguration.DisplayName" type="QString">Make</value>
+     <value key="ProjectExplorer.ProjectConfiguration.Id" type="QString">Qt4ProjectManager.MakeStep</value>
+     <value key="Qt4ProjectManager.MakeStep.Clean" type="bool">false</value>
+     <valuelist key="Qt4ProjectManager.MakeStep.MakeArguments" type="QVariantList"/>
+     <value key="Qt4ProjectManager.MakeStep.MakeCommand" type="QString"></value>
+    </valuemap>
+    <value key="ProjectExplorer.BuildConfiguration.BuildStepsCount" type="int">2</value>
+    <valuemap key="ProjectExplorer.BuildConfiguration.CleanStep.0" type="QVariantMap">
+     <value key="ProjectExplorer.ProjectConfiguration.DisplayName" type="QString">Make</value>
+     <value key="ProjectExplorer.ProjectConfiguration.Id" type="QString">Qt4ProjectManager.MakeStep</value>
+     <value key="Qt4ProjectManager.MakeStep.Clean" type="bool">true</value>
+     <valuelist key="Qt4ProjectManager.MakeStep.MakeArguments" type="QVariantList">
+      <value type="QString">clean</value>
+     </valuelist>
+     <value key="Qt4ProjectManager.MakeStep.MakeCommand" type="QString"></value>
+    </valuemap>
+    <value key="ProjectExplorer.BuildConfiguration.CleanStepsCount" type="int">1</value>
+    <value key="ProjectExplorer.BuildConfiguration.ClearSystemEnvironment" type="bool">false</value>
+    <valuelist key="ProjectExplorer.BuildConfiguration.UserEnvironmentChanges" type="QVariantList"/>
+    <value key="ProjectExplorer.ProjectConfiguration.DisplayName" type="QString">Debug</value>
+    <value key="ProjectExplorer.ProjectConfiguration.Id" type="QString">Qt4ProjectManager.Qt4BuildConfiguration</value>
+    <value key="Qt4ProjectManager.Qt4BuildConfiguration.BuildConfiguration" type="int">2</value>
+    <value key="Qt4ProjectManager.Qt4BuildConfiguration.BuildDirectory" type="QString">/Users/odamm/Dropbox/GestureCompare/src/GestureComparison/qwt-build-desktop</value>
+    <value key="Qt4ProjectManager.Qt4BuildConfiguration.QtVersionId" type="int">6</value>
+    <value key="Qt4ProjectManager.Qt4BuildConfiguration.ToolChain" type="int">0</value>
+    <value key="Qt4ProjectManager.Qt4BuildConfiguration.UseShadowBuild" type="bool">true</value>
+   </valuemap>
+   <valuemap key="ProjectExplorer.Target.BuildConfiguration.1" type="QVariantMap">
+    <valuemap key="ProjectExplorer.BuildConfiguration.BuildStep.0" type="QVariantMap">
+     <value key="ProjectExplorer.ProjectConfiguration.DisplayName" type="QString">qmake</value>
+     <value key="ProjectExplorer.ProjectConfiguration.Id" type="QString">QtProjectManager.QMakeBuildStep</value>
+     <valuelist key="QtProjectManager.QMakeBuildStep.QMakeArguments" type="QVariantList"/>
+    </valuemap>
+    <valuemap key="ProjectExplorer.BuildConfiguration.BuildStep.1" type="QVariantMap">
+     <value key="ProjectExplorer.ProjectConfiguration.DisplayName" type="QString">Make</value>
+     <value key="ProjectExplorer.ProjectConfiguration.Id" type="QString">Qt4ProjectManager.MakeStep</value>
+     <value key="Qt4ProjectManager.MakeStep.Clean" type="bool">false</value>
+     <valuelist key="Qt4ProjectManager.MakeStep.MakeArguments" type="QVariantList"/>
+     <value key="Qt4ProjectManager.MakeStep.MakeCommand" type="QString"></value>
+    </valuemap>
+    <value key="ProjectExplorer.BuildConfiguration.BuildStepsCount" type="int">2</value>
+    <valuemap key="ProjectExplorer.BuildConfiguration.CleanStep.0" type="QVariantMap">
+     <value key="ProjectExplorer.ProjectConfiguration.DisplayName" type="QString">Make</value>
+     <value key="ProjectExplorer.ProjectConfiguration.Id" type="QString">Qt4ProjectManager.MakeStep</value>
+     <value key="Qt4ProjectManager.MakeStep.Clean" type="bool">true</value>
+     <valuelist key="Qt4ProjectManager.MakeStep.MakeArguments" type="QVariantList">
+      <value type="QString">clean</value>
+     </valuelist>
+     <value key="Qt4ProjectManager.MakeStep.MakeCommand" type="QString"></value>
+    </valuemap>
+    <value key="ProjectExplorer.BuildConfiguration.CleanStepsCount" type="int">1</value>
+    <value key="ProjectExplorer.BuildConfiguration.ClearSystemEnvironment" type="bool">false</value>
+    <valuelist key="ProjectExplorer.BuildConfiguration.UserEnvironmentChanges" type="QVariantList"/>
+    <value key="ProjectExplorer.ProjectConfiguration.DisplayName" type="QString">Release</value>
+    <value key="ProjectExplorer.ProjectConfiguration.Id" type="QString">Qt4ProjectManager.Qt4BuildConfiguration</value>
+    <value key="Qt4ProjectManager.Qt4BuildConfiguration.BuildConfiguration" type="int">0</value>
+    <value key="Qt4ProjectManager.Qt4BuildConfiguration.BuildDirectory" type="QString">/Users/odamm/Dropbox/GestureCompare/src/GestureComparison/qwt-build-desktop</value>
+    <value key="Qt4ProjectManager.Qt4BuildConfiguration.QtVersionId" type="int">6</value>
+    <value key="Qt4ProjectManager.Qt4BuildConfiguration.ToolChain" type="int">0</value>
+    <value key="Qt4ProjectManager.Qt4BuildConfiguration.UseShadowBuild" type="bool">true</value>
+   </valuemap>
+   <value key="ProjectExplorer.Target.BuildConfigurationCount" type="int">2</value>
+   <valuemap key="ProjectExplorer.Target.RunConfiguration.0" type="QVariantMap">
+    <value key="ProjectExplorer.ProjectConfiguration.DisplayName" type="QString">qwtconfig</value>
+    <value key="ProjectExplorer.ProjectConfiguration.Id" type="QString">Qt4ProjectManager.Qt4RunConfiguration</value>
+    <value key="Qt4ProjectManager.Qt4RunConfiguration.BaseEnvironmentBase" type="int">2</value>
+    <valuelist key="Qt4ProjectManager.Qt4RunConfiguration.CommandLineArguments" type="QVariantList"/>
+    <value key="Qt4ProjectManager.Qt4RunConfiguration.ProFile" type="QString">qwtconfig.pri</value>
+    <value key="Qt4ProjectManager.Qt4RunConfiguration.UseDyldImageSuffix" type="bool">false</value>
+    <value key="Qt4ProjectManager.Qt4RunConfiguration.UseTerminal" type="bool">false</value>
+    <valuelist key="Qt4ProjectManager.Qt4RunConfiguration.UserEnvironmentChanges" type="QVariantList"/>
+    <value key="Qt4ProjectManager.Qt4RunConfiguration.UserSetName" type="bool">false</value>
+    <value key="Qt4ProjectManager.Qt4RunConfiguration.UserSetWorkingDirectory" type="bool">false</value>
+    <value key="Qt4ProjectManager.Qt4RunConfiguration.UserWorkingDirectory" type="QString"></value>
+   </valuemap>
+   <valuemap key="ProjectExplorer.Target.RunConfiguration.1" type="QVariantMap">
+    <value key="ProjectExplorer.ProjectConfiguration.DisplayName" type="QString">bode</value>
+    <value key="ProjectExplorer.ProjectConfiguration.Id" type="QString">Qt4ProjectManager.Qt4RunConfiguration</value>
+    <value key="Qt4ProjectManager.Qt4RunConfiguration.BaseEnvironmentBase" type="int">2</value>
+    <valuelist key="Qt4ProjectManager.Qt4RunConfiguration.CommandLineArguments" type="QVariantList"/>
+    <value key="Qt4ProjectManager.Qt4RunConfiguration.ProFile" type="QString">examples/bode/bode.pro</value>
+    <value key="Qt4ProjectManager.Qt4RunConfiguration.UseDyldImageSuffix" type="bool">false</value>
+    <value key="Qt4ProjectManager.Qt4RunConfiguration.UseTerminal" type="bool">false</value>
+    <valuelist key="Qt4ProjectManager.Qt4RunConfiguration.UserEnvironmentChanges" type="QVariantList"/>
+    <value key="Qt4ProjectManager.Qt4RunConfiguration.UserSetName" type="bool">false</value>
+    <value key="Qt4ProjectManager.Qt4RunConfiguration.UserSetWorkingDirectory" type="bool">false</value>
+    <value key="Qt4ProjectManager.Qt4RunConfiguration.UserWorkingDirectory" type="QString"></value>
+   </valuemap>
+   <valuemap key="ProjectExplorer.Target.RunConfiguration.10" type="QVariantMap">
+    <value key="ProjectExplorer.ProjectConfiguration.DisplayName" type="QString">realtime_plot</value>
+    <value key="ProjectExplorer.ProjectConfiguration.Id" type="QString">Qt4ProjectManager.Qt4RunConfiguration</value>
+    <value key="Qt4ProjectManager.Qt4RunConfiguration.BaseEnvironmentBase" type="int">2</value>
+    <valuelist key="Qt4ProjectManager.Qt4RunConfiguration.CommandLineArguments" type="QVariantList"/>
+    <value key="Qt4ProjectManager.Qt4RunConfiguration.ProFile" type="QString">examples/realtime_plot/realtime_plot.pro</value>
+    <value key="Qt4ProjectManager.Qt4RunConfiguration.UseDyldImageSuffix" type="bool">false</value>
+    <value key="Qt4ProjectManager.Qt4RunConfiguration.UseTerminal" type="bool">false</value>
+    <valuelist key="Qt4ProjectManager.Qt4RunConfiguration.UserEnvironmentChanges" type="QVariantList"/>
+    <value key="Qt4ProjectManager.Qt4RunConfiguration.UserSetName" type="bool">false</value>
+    <value key="Qt4ProjectManager.Qt4RunConfiguration.UserSetWorkingDirectory" type="bool">false</value>
+    <value key="Qt4ProjectManager.Qt4RunConfiguration.UserWorkingDirectory" type="QString"></value>
+   </valuemap>
+   <valuemap key="ProjectExplorer.Target.RunConfiguration.11" type="QVariantMap">
+    <value key="ProjectExplorer.ProjectConfiguration.DisplayName" type="QString">simple_plot</value>
+    <value key="ProjectExplorer.ProjectConfiguration.Id" type="QString">Qt4ProjectManager.Qt4RunConfiguration</value>
+    <value key="Qt4ProjectManager.Qt4RunConfiguration.BaseEnvironmentBase" type="int">2</value>
+    <valuelist key="Qt4ProjectManager.Qt4RunConfiguration.CommandLineArguments" type="QVariantList"/>
+    <value key="Qt4ProjectManager.Qt4RunConfiguration.ProFile" type="QString">examples/simple_plot/simple_plot.pro</value>
+    <value key="Qt4ProjectManager.Qt4RunConfiguration.UseDyldImageSuffix" type="bool">false</value>
+    <value key="Qt4ProjectManager.Qt4RunConfiguration.UseTerminal" type="bool">false</value>
+    <valuelist key="Qt4ProjectManager.Qt4RunConfiguration.UserEnvironmentChanges" type="QVariantList"/>
+    <value key="Qt4ProjectManager.Qt4RunConfiguration.UserSetName" type="bool">false</value>
+    <value key="Qt4ProjectManager.Qt4RunConfiguration.UserSetWorkingDirectory" type="bool">false</value>
+    <value key="Qt4ProjectManager.Qt4RunConfiguration.UserWorkingDirectory" type="QString"></value>
+   </valuemap>
+   <valuemap key="ProjectExplorer.Target.RunConfiguration.12" type="QVariantMap">
+    <value key="ProjectExplorer.ProjectConfiguration.DisplayName" type="QString">sliders</value>
+    <value key="ProjectExplorer.ProjectConfiguration.Id" type="QString">Qt4ProjectManager.Qt4RunConfiguration</value>
+    <value key="Qt4ProjectManager.Qt4RunConfiguration.BaseEnvironmentBase" type="int">2</value>
+    <valuelist key="Qt4ProjectManager.Qt4RunConfiguration.CommandLineArguments" type="QVariantList"/>
+    <value key="Qt4ProjectManager.Qt4RunConfiguration.ProFile" type="QString">examples/sliders/sliders.pro</value>
+    <value key="Qt4ProjectManager.Qt4RunConfiguration.UseDyldImageSuffix" type="bool">false</value>
+    <value key="Qt4ProjectManager.Qt4RunConfiguration.UseTerminal" type="bool">false</value>
+    <valuelist key="Qt4ProjectManager.Qt4RunConfiguration.UserEnvironmentChanges" type="QVariantList"/>
+    <value key="Qt4ProjectManager.Qt4RunConfiguration.UserSetName" type="bool">false</value>
+    <value key="Qt4ProjectManager.Qt4RunConfiguration.UserSetWorkingDirectory" type="bool">false</value>
+    <value key="Qt4ProjectManager.Qt4RunConfiguration.UserWorkingDirectory" type="QString"></value>
+   </valuemap>
+   <valuemap key="ProjectExplorer.Target.RunConfiguration.13" type="QVariantMap">
+    <value key="ProjectExplorer.ProjectConfiguration.DisplayName" type="QString">spectrogram</value>
+    <value key="ProjectExplorer.ProjectConfiguration.Id" type="QString">Qt4ProjectManager.Qt4RunConfiguration</value>
+    <value key="Qt4ProjectManager.Qt4RunConfiguration.BaseEnvironmentBase" type="int">2</value>
+    <valuelist key="Qt4ProjectManager.Qt4RunConfiguration.CommandLineArguments" type="QVariantList"/>
+    <value key="Qt4ProjectManager.Qt4RunConfiguration.ProFile" type="QString">examples/spectrogram/spectrogram.pro</value>
+    <value key="Qt4ProjectManager.Qt4RunConfiguration.UseDyldImageSuffix" type="bool">false</value>
+    <value key="Qt4ProjectManager.Qt4RunConfiguration.UseTerminal" type="bool">false</value>
+    <valuelist key="Qt4ProjectManager.Qt4RunConfiguration.UserEnvironmentChanges" type="QVariantList"/>
+    <value key="Qt4ProjectManager.Qt4RunConfiguration.UserSetName" type="bool">false</value>
+    <value key="Qt4ProjectManager.Qt4RunConfiguration.UserSetWorkingDirectory" type="bool">false</value>
+    <value key="Qt4ProjectManager.Qt4RunConfiguration.UserWorkingDirectory" type="QString"></value>
+   </valuemap>
+   <valuemap key="ProjectExplorer.Target.RunConfiguration.14" type="QVariantMap">
+    <value key="ProjectExplorer.ProjectConfiguration.DisplayName" type="QString">svgmap</value>
+    <value key="ProjectExplorer.ProjectConfiguration.Id" type="QString">Qt4ProjectManager.Qt4RunConfiguration</value>
+    <value key="Qt4ProjectManager.Qt4RunConfiguration.BaseEnvironmentBase" type="int">2</value>
+    <valuelist key="Qt4ProjectManager.Qt4RunConfiguration.CommandLineArguments" type="QVariantList"/>
+    <value key="Qt4ProjectManager.Qt4RunConfiguration.ProFile" type="QString">examples/svgmap/svgmap.pro</value>
+    <value key="Qt4ProjectManager.Qt4RunConfiguration.UseDyldImageSuffix" type="bool">false</value>
+    <value key="Qt4ProjectManager.Qt4RunConfiguration.UseTerminal" type="bool">false</value>
+    <valuelist key="Qt4ProjectManager.Qt4RunConfiguration.UserEnvironmentChanges" type="QVariantList"/>
+    <value key="Qt4ProjectManager.Qt4RunConfiguration.UserSetName" type="bool">false</value>
+    <value key="Qt4ProjectManager.Qt4RunConfiguration.UserSetWorkingDirectory" type="bool">false</value>
+    <value key="Qt4ProjectManager.Qt4RunConfiguration.UserWorkingDirectory" type="QString"></value>
+   </valuemap>
+   <valuemap key="ProjectExplorer.Target.RunConfiguration.15" type="QVariantMap">
+    <value key="ProjectExplorer.ProjectConfiguration.DisplayName" type="QString">sysinfo</value>
+    <value key="ProjectExplorer.ProjectConfiguration.Id" type="QString">Qt4ProjectManager.Qt4RunConfiguration</value>
+    <value key="Qt4ProjectManager.Qt4RunConfiguration.BaseEnvironmentBase" type="int">2</value>
+    <valuelist key="Qt4ProjectManager.Qt4RunConfiguration.CommandLineArguments" type="QVariantList"/>
+    <value key="Qt4ProjectManager.Qt4RunConfiguration.ProFile" type="QString">examples/sysinfo/sysinfo.pro</value>
+    <value key="Qt4ProjectManager.Qt4RunConfiguration.UseDyldImageSuffix" type="bool">false</value>
+    <value key="Qt4ProjectManager.Qt4RunConfiguration.UseTerminal" type="bool">false</value>
+    <valuelist key="Qt4ProjectManager.Qt4RunConfiguration.UserEnvironmentChanges" type="QVariantList"/>
+    <value key="Qt4ProjectManager.Qt4RunConfiguration.UserSetName" type="bool">false</value>
+    <value key="Qt4ProjectManager.Qt4RunConfiguration.UserSetWorkingDirectory" type="bool">false</value>
+    <value key="Qt4ProjectManager.Qt4RunConfiguration.UserWorkingDirectory" type="QString"></value>
+   </valuemap>
+   <valuemap key="ProjectExplorer.Target.RunConfiguration.2" type="QVariantMap">
+    <value key="ProjectExplorer.ProjectConfiguration.DisplayName" type="QString">cpuplot</value>
+    <value key="ProjectExplorer.ProjectConfiguration.Id" type="QString">Qt4ProjectManager.Qt4RunConfiguration</value>
+    <value key="Qt4ProjectManager.Qt4RunConfiguration.BaseEnvironmentBase" type="int">2</value>
+    <valuelist key="Qt4ProjectManager.Qt4RunConfiguration.CommandLineArguments" type="QVariantList"/>
+    <value key="Qt4ProjectManager.Qt4RunConfiguration.ProFile" type="QString">examples/cpuplot/cpuplot.pro</value>
+    <value key="Qt4ProjectManager.Qt4RunConfiguration.UseDyldImageSuffix" type="bool">false</value>
+    <value key="Qt4ProjectManager.Qt4RunConfiguration.UseTerminal" type="bool">false</value>
+    <valuelist key="Qt4ProjectManager.Qt4RunConfiguration.UserEnvironmentChanges" type="QVariantList"/>
+    <value key="Qt4ProjectManager.Qt4RunConfiguration.UserSetName" type="bool">false</value>
+    <value key="Qt4ProjectManager.Qt4RunConfiguration.UserSetWorkingDirectory" type="bool">false</value>
+    <value key="Qt4ProjectManager.Qt4RunConfiguration.UserWorkingDirectory" type="QString"></value>
+   </valuemap>
+   <valuemap key="ProjectExplorer.Target.RunConfiguration.3" type="QVariantMap">
+    <value key="ProjectExplorer.ProjectConfiguration.DisplayName" type="QString">curvdemo1</value>
+    <value key="ProjectExplorer.ProjectConfiguration.Id" type="QString">Qt4ProjectManager.Qt4RunConfiguration</value>
+    <value key="Qt4ProjectManager.Qt4RunConfiguration.BaseEnvironmentBase" type="int">2</value>
+    <valuelist key="Qt4ProjectManager.Qt4RunConfiguration.CommandLineArguments" type="QVariantList"/>
+    <value key="Qt4ProjectManager.Qt4RunConfiguration.ProFile" type="QString">examples/curvdemo1/curvdemo1.pro</value>
+    <value key="Qt4ProjectManager.Qt4RunConfiguration.UseDyldImageSuffix" type="bool">false</value>
+    <value key="Qt4ProjectManager.Qt4RunConfiguration.UseTerminal" type="bool">false</value>
+    <valuelist key="Qt4ProjectManager.Qt4RunConfiguration.UserEnvironmentChanges" type="QVariantList"/>
+    <value key="Qt4ProjectManager.Qt4RunConfiguration.UserSetName" type="bool">false</value>
+    <value key="Qt4ProjectManager.Qt4RunConfiguration.UserSetWorkingDirectory" type="bool">false</value>
+    <value key="Qt4ProjectManager.Qt4RunConfiguration.UserWorkingDirectory" type="QString"></value>
+   </valuemap>
+   <valuemap key="ProjectExplorer.Target.RunConfiguration.4" type="QVariantMap">
+    <value key="ProjectExplorer.ProjectConfiguration.DisplayName" type="QString">curvdemo2</value>
+    <value key="ProjectExplorer.ProjectConfiguration.Id" type="QString">Qt4ProjectManager.Qt4RunConfiguration</value>
+    <value key="Qt4ProjectManager.Qt4RunConfiguration.BaseEnvironmentBase" type="int">2</value>
+    <valuelist key="Qt4ProjectManager.Qt4RunConfiguration.CommandLineArguments" type="QVariantList"/>
+    <value key="Qt4ProjectManager.Qt4RunConfiguration.ProFile" type="QString">examples/curvdemo2/curvdemo2.pro</value>
+    <value key="Qt4ProjectManager.Qt4RunConfiguration.UseDyldImageSuffix" type="bool">false</value>
+    <value key="Qt4ProjectManager.Qt4RunConfiguration.UseTerminal" type="bool">false</value>
+    <valuelist key="Qt4ProjectManager.Qt4RunConfiguration.UserEnvironmentChanges" type="QVariantList"/>
+    <value key="Qt4ProjectManager.Qt4RunConfiguration.UserSetName" type="bool">false</value>
+    <value key="Qt4ProjectManager.Qt4RunConfiguration.UserSetWorkingDirectory" type="bool">false</value>
+    <value key="Qt4ProjectManager.Qt4RunConfiguration.UserWorkingDirectory" type="QString"></value>
+   </valuemap>
+   <valuemap key="ProjectExplorer.Target.RunConfiguration.5" type="QVariantMap">
+    <value key="ProjectExplorer.ProjectConfiguration.DisplayName" type="QString">data_plot</value>
+    <value key="ProjectExplorer.ProjectConfiguration.Id" type="QString">Qt4ProjectManager.Qt4RunConfiguration</value>
+    <value key="Qt4ProjectManager.Qt4RunConfiguration.BaseEnvironmentBase" type="int">2</value>
+    <valuelist key="Qt4ProjectManager.Qt4RunConfiguration.CommandLineArguments" type="QVariantList"/>
+    <value key="Qt4ProjectManager.Qt4RunConfiguration.ProFile" type="QString">examples/data_plot/data_plot.pro</value>
+    <value key="Qt4ProjectManager.Qt4RunConfiguration.UseDyldImageSuffix" type="bool">false</value>
+    <value key="Qt4ProjectManager.Qt4RunConfiguration.UseTerminal" type="bool">false</value>
+    <valuelist key="Qt4ProjectManager.Qt4RunConfiguration.UserEnvironmentChanges" type="QVariantList"/>
+    <value key="Qt4ProjectManager.Qt4RunConfiguration.UserSetName" type="bool">false</value>
+    <value key="Qt4ProjectManager.Qt4RunConfiguration.UserSetWorkingDirectory" type="bool">false</value>
+    <value key="Qt4ProjectManager.Qt4RunConfiguration.UserWorkingDirectory" type="QString"></value>
+   </valuemap>
+   <valuemap key="ProjectExplorer.Target.RunConfiguration.6" type="QVariantMap">
+    <value key="ProjectExplorer.ProjectConfiguration.DisplayName" type="QString">dials</value>
+    <value key="ProjectExplorer.ProjectConfiguration.Id" type="QString">Qt4ProjectManager.Qt4RunConfiguration</value>
+    <value key="Qt4ProjectManager.Qt4RunConfiguration.BaseEnvironmentBase" type="int">2</value>
+    <valuelist key="Qt4ProjectManager.Qt4RunConfiguration.CommandLineArguments" type="QVariantList"/>
+    <value key="Qt4ProjectManager.Qt4RunConfiguration.ProFile" type="QString">examples/dials/dials.pro</value>
+    <value key="Qt4ProjectManager.Qt4RunConfiguration.UseDyldImageSuffix" type="bool">false</value>
+    <value key="Qt4ProjectManager.Qt4RunConfiguration.UseTerminal" type="bool">false</value>
+    <valuelist key="Qt4ProjectManager.Qt4RunConfiguration.UserEnvironmentChanges" type="QVariantList"/>
+    <value key="Qt4ProjectManager.Qt4RunConfiguration.UserSetName" type="bool">false</value>
+    <value key="Qt4ProjectManager.Qt4RunConfiguration.UserSetWorkingDirectory" type="bool">false</value>
+    <value key="Qt4ProjectManager.Qt4RunConfiguration.UserWorkingDirectory" type="QString"></value>
+   </valuemap>
+   <valuemap key="ProjectExplorer.Target.RunConfiguration.7" type="QVariantMap">
+    <value key="ProjectExplorer.ProjectConfiguration.DisplayName" type="QString">event_filter</value>
+    <value key="ProjectExplorer.ProjectConfiguration.Id" type="QString">Qt4ProjectManager.Qt4RunConfiguration</value>
+    <value key="Qt4ProjectManager.Qt4RunConfiguration.BaseEnvironmentBase" type="int">2</value>
+    <valuelist key="Qt4ProjectManager.Qt4RunConfiguration.CommandLineArguments" type="QVariantList"/>
+    <value key="Qt4ProjectManager.Qt4RunConfiguration.ProFile" type="QString">examples/event_filter/event_filter.pro</value>
+    <value key="Qt4ProjectManager.Qt4RunConfiguration.UseDyldImageSuffix" type="bool">false</value>
+    <value key="Qt4ProjectManager.Qt4RunConfiguration.UseTerminal" type="bool">false</value>
+    <valuelist key="Qt4ProjectManager.Qt4RunConfiguration.UserEnvironmentChanges" type="QVariantList"/>
+    <value key="Qt4ProjectManager.Qt4RunConfiguration.UserSetName" type="bool">false</value>
+    <value key="Qt4ProjectManager.Qt4RunConfiguration.UserSetWorkingDirectory" type="bool">false</value>
+    <value key="Qt4ProjectManager.Qt4RunConfiguration.UserWorkingDirectory" type="QString"></value>
+   </valuemap>
+   <valuemap key="ProjectExplorer.Target.RunConfiguration.8" type="QVariantMap">
+    <value key="ProjectExplorer.ProjectConfiguration.DisplayName" type="QString">histogram</value>
+    <value key="ProjectExplorer.ProjectConfiguration.Id" type="QString">Qt4ProjectManager.Qt4RunConfiguration</value>
+    <value key="Qt4ProjectManager.Qt4RunConfiguration.BaseEnvironmentBase" type="int">2</value>
+    <valuelist key="Qt4ProjectManager.Qt4RunConfiguration.CommandLineArguments" type="QVariantList"/>
+    <value key="Qt4ProjectManager.Qt4RunConfiguration.ProFile" type="QString">examples/histogram/histogram.pro</value>
+    <value key="Qt4ProjectManager.Qt4RunConfiguration.UseDyldImageSuffix" type="bool">false</value>
+    <value key="Qt4ProjectManager.Qt4RunConfiguration.UseTerminal" type="bool">false</value>
+    <valuelist key="Qt4ProjectManager.Qt4RunConfiguration.UserEnvironmentChanges" type="QVariantList"/>
+    <value key="Qt4ProjectManager.Qt4RunConfiguration.UserSetName" type="bool">false</value>
+    <value key="Qt4ProjectManager.Qt4RunConfiguration.UserSetWorkingDirectory" type="bool">false</value>
+    <value key="Qt4ProjectManager.Qt4RunConfiguration.UserWorkingDirectory" type="QString"></value>
+   </valuemap>
+   <valuemap key="ProjectExplorer.Target.RunConfiguration.9" type="QVariantMap">
+    <value key="ProjectExplorer.ProjectConfiguration.DisplayName" type="QString">radio</value>
+    <value key="ProjectExplorer.ProjectConfiguration.Id" type="QString">Qt4ProjectManager.Qt4RunConfiguration</value>
+    <value key="Qt4ProjectManager.Qt4RunConfiguration.BaseEnvironmentBase" type="int">2</value>
+    <valuelist key="Qt4ProjectManager.Qt4RunConfiguration.CommandLineArguments" type="QVariantList"/>
+    <value key="Qt4ProjectManager.Qt4RunConfiguration.ProFile" type="QString">examples/radio/radio.pro</value>
+    <value key="Qt4ProjectManager.Qt4RunConfiguration.UseDyldImageSuffix" type="bool">false</value>
+    <value key="Qt4ProjectManager.Qt4RunConfiguration.UseTerminal" type="bool">false</value>
+    <valuelist key="Qt4ProjectManager.Qt4RunConfiguration.UserEnvironmentChanges" type="QVariantList"/>
+    <value key="Qt4ProjectManager.Qt4RunConfiguration.UserSetName" type="bool">false</value>
+    <value key="Qt4ProjectManager.Qt4RunConfiguration.UserSetWorkingDirectory" type="bool">false</value>
+    <value key="Qt4ProjectManager.Qt4RunConfiguration.UserWorkingDirectory" type="QString"></value>
+   </valuemap>
+   <value key="ProjectExplorer.Target.RunConfigurationCount" type="int">16</value>
+  </valuemap>
+ </data>
+ <data>
+  <variable>ProjectExplorer.Project.TargetCount</variable>
+  <value type="int">1</value>
+ </data>
+ <data>
+  <variable>ProjectExplorer.Project.Updater.FileVersion</variable>
+  <value type="int">4</value>
+ </data>
+</qtcreator>

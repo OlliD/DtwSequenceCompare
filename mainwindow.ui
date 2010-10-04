@@ -1,0 +1,620 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>786</width>
+    <height>556</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralWidget">
+   <widget class="QWidget" name="horizontalLayoutWidget">
+    <property name="geometry">
+     <rect>
+      <x>50</x>
+      <y>570</y>
+      <width>467</width>
+      <height>421</height>
+     </rect>
+    </property>
+    <layout class="QHBoxLayout" name="horizontalLayout">
+     <item>
+      <layout class="QVBoxLayout" name="verticalLayout_4">
+       <item>
+        <spacer name="verticalSpacer">
+         <property name="orientation">
+          <enum>Qt::Vertical</enum>
+         </property>
+         <property name="sizeHint" stdset="0">
+          <size>
+           <width>20</width>
+           <height>55</height>
+          </size>
+         </property>
+        </spacer>
+       </item>
+       <item>
+        <layout class="QVBoxLayout" name="verticalLayout_2">
+         <item>
+          <spacer name="verticalSpacer_3">
+           <property name="orientation">
+            <enum>Qt::Vertical</enum>
+           </property>
+           <property name="sizeHint" stdset="0">
+            <size>
+             <width>20</width>
+             <height>30</height>
+            </size>
+           </property>
+          </spacer>
+         </item>
+         <item>
+          <spacer name="verticalSpacer_2">
+           <property name="orientation">
+            <enum>Qt::Vertical</enum>
+           </property>
+           <property name="sizeHint" stdset="0">
+            <size>
+             <width>20</width>
+             <height>10</height>
+            </size>
+           </property>
+          </spacer>
+         </item>
+         <item>
+          <layout class="QHBoxLayout" name="horizontalLayout_4">
+           <item>
+            <widget class="QLCDNumber" name="lcdNumber">
+             <property name="toolTip">
+              <string/>
+             </property>
+             <property name="segmentStyle">
+              <enum>QLCDNumber::Flat</enum>
+             </property>
+            </widget>
+           </item>
+          </layout>
+         </item>
+        </layout>
+       </item>
+       <item>
+        <widget class="QPlainTextEdit" name="rightHandOutput">
+         <property name="toolTip">
+          <string/>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <layout class="QHBoxLayout" name="horizontalLayout_5">
+         <item>
+          <widget class="QLCDNumber" name="timeLabel">
+           <property name="toolTip">
+            <string/>
+           </property>
+           <property name="segmentStyle">
+            <enum>QLCDNumber::Flat</enum>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QSlider" name="timeSlider">
+           <property name="toolTip">
+            <string/>
+           </property>
+           <property name="orientation">
+            <enum>Qt::Horizontal</enum>
+           </property>
+          </widget>
+         </item>
+        </layout>
+       </item>
+       <item>
+        <widget class="QProgressBar" name="similarityBar">
+         <property name="toolTip">
+          <string/>
+         </property>
+         <property name="value">
+          <number>24</number>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </item>
+    </layout>
+   </widget>
+   <widget class="QGroupBox" name="groupBox">
+    <property name="geometry">
+     <rect>
+      <x>420</x>
+      <y>0</y>
+      <width>191</width>
+      <height>121</height>
+     </rect>
+    </property>
+    <property name="title">
+     <string>Start DTW</string>
+    </property>
+    <widget class="QWidget" name="verticalLayoutWidget">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>20</y>
+       <width>188</width>
+       <height>101</height>
+      </rect>
+     </property>
+     <layout class="QVBoxLayout" name="verticalLayout">
+      <item>
+       <widget class="QPushButton" name="calc_concat">
+        <property name="text">
+         <string>Calculate concatenated</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QPushButton" name="calc_single">
+        <property name="text">
+         <string>Calculate a pair</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QPushButton" name="calc_seq">
+        <property name="text">
+         <string>Calculate sequence</string>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </widget>
+   </widget>
+   <widget class="QGroupBox" name="groupBox_2">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>0</y>
+      <width>181</width>
+      <height>211</height>
+     </rect>
+    </property>
+    <property name="title">
+     <string>Gestures</string>
+    </property>
+    <widget class="QWidget" name="verticalLayoutWidget_2">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>20</y>
+       <width>171</width>
+       <height>191</height>
+      </rect>
+     </property>
+     <layout class="QVBoxLayout" name="verticalLayout_3">
+      <item>
+       <widget class="QLabel" name="label">
+        <property name="text">
+         <string>Source</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QComboBox" name="trackerBox">
+        <item>
+         <property name="text">
+          <string/>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>FileTracker</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>IisuTracker</string>
+         </property>
+        </item>
+       </widget>
+      </item>
+      <item>
+       <widget class="Line" name="line">
+        <property name="orientation">
+         <enum>Qt::Horizontal</enum>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QLabel" name="label_2">
+        <property name="text">
+         <string>Load observation</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QPushButton" name="loadButton">
+        <property name="toolTip">
+         <string extracomment="will load the template gesture and start the comparing till the left label reaches zero ;)"/>
+        </property>
+        <property name="text">
+         <string>load gesture</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="Line" name="line_2">
+        <property name="orientation">
+         <enum>Qt::Horizontal</enum>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QPushButton" name="pushButton_2">
+        <property name="toolTip">
+         <string/>
+        </property>
+        <property name="text">
+         <string>Set Scale Factor</string>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </widget>
+   </widget>
+   <widget class="QPlainTextEdit" name="leftHandOutPut">
+    <property name="geometry">
+     <rect>
+      <x>660</x>
+      <y>610</y>
+      <width>220</width>
+      <height>192</height>
+     </rect>
+    </property>
+    <property name="toolTip">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QGroupBox" name="groupBox_6">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>230</y>
+      <width>761</width>
+      <height>271</height>
+     </rect>
+    </property>
+    <property name="title">
+     <string>Visualization of the DTW Matrices</string>
+    </property>
+    <widget class="QGroupBox" name="groupBox_5">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>20</y>
+       <width>241</width>
+       <height>221</height>
+      </rect>
+     </property>
+     <property name="title">
+      <string>x-Axis</string>
+     </property>
+     <widget class="QGraphicsView" name="xView">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>20</y>
+        <width>241</width>
+        <height>201</height>
+       </rect>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QGroupBox" name="groupBox_4">
+     <property name="geometry">
+      <rect>
+       <x>260</x>
+       <y>20</y>
+       <width>241</width>
+       <height>221</height>
+      </rect>
+     </property>
+     <property name="title">
+      <string>y-Axis</string>
+     </property>
+     <widget class="QGraphicsView" name="yView">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>20</y>
+        <width>241</width>
+        <height>201</height>
+       </rect>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QGroupBox" name="groupBox_3">
+     <property name="geometry">
+      <rect>
+       <x>510</x>
+       <y>20</y>
+       <width>241</width>
+       <height>221</height>
+      </rect>
+     </property>
+     <property name="title">
+      <string>z-Axis</string>
+     </property>
+     <widget class="QGraphicsView" name="zView">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>20</y>
+        <width>241</width>
+        <height>201</height>
+       </rect>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QPushButton" name="xButton">
+     <property name="geometry">
+      <rect>
+       <x>60</x>
+       <y>240</y>
+       <width>131</width>
+       <height>32</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>Show trajectory</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="yButton">
+     <property name="geometry">
+      <rect>
+       <x>313</x>
+       <y>240</y>
+       <width>121</width>
+       <height>32</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>Show trajectory</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="zButton">
+     <property name="geometry">
+      <rect>
+       <x>570</x>
+       <y>240</y>
+       <width>121</width>
+       <height>32</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>Show trajectory</string>
+     </property>
+    </widget>
+   </widget>
+   <widget class="QGroupBox" name="groupBox_7">
+    <property name="geometry">
+     <rect>
+      <x>200</x>
+      <y>0</y>
+      <width>211</width>
+      <height>141</height>
+     </rect>
+    </property>
+    <property name="title">
+     <string>Inputdata</string>
+    </property>
+    <widget class="QWidget" name="verticalLayoutWidget_3">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>20</y>
+       <width>191</width>
+       <height>106</height>
+      </rect>
+     </property>
+     <layout class="QVBoxLayout" name="verticalLayout_5">
+      <item>
+       <widget class="QLabel" name="label_3">
+        <property name="text">
+         <string>Length of Source vector</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QLCDNumber" name="src_number">
+        <property name="segmentStyle">
+         <enum>QLCDNumber::Flat</enum>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QLabel" name="label_4">
+        <property name="text">
+         <string>Length of Observation vector</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QLCDNumber" name="obs_number">
+        <property name="segmentStyle">
+         <enum>QLCDNumber::Flat</enum>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </widget>
+   </widget>
+   <widget class="QGroupBox" name="groupBox_8">
+    <property name="geometry">
+     <rect>
+      <x>200</x>
+      <y>140</y>
+      <width>211</width>
+      <height>91</height>
+     </rect>
+    </property>
+    <property name="title">
+     <string>Iisu Tracking </string>
+    </property>
+    <widget class="QWidget" name="verticalLayoutWidget_4">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>30</y>
+       <width>191</width>
+       <height>61</height>
+      </rect>
+     </property>
+     <layout class="QVBoxLayout" name="verticalLayout_6">
+      <item>
+       <layout class="QHBoxLayout" name="horizontalLayout_3">
+        <item>
+         <widget class="QLabel" name="leftHandLabel">
+          <property name="toolTip">
+           <string/>
+          </property>
+          <property name="text">
+           <string>Left Hand</string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QLabel" name="rightHandLabel">
+          <property name="toolTip">
+           <string/>
+          </property>
+          <property name="text">
+           <string>Right Hand</string>
+          </property>
+         </widget>
+        </item>
+       </layout>
+      </item>
+      <item>
+       <widget class="QPushButton" name="startMeasureButton">
+        <property name="toolTip">
+         <string/>
+        </property>
+        <property name="text">
+         <string>Start Tracking</string>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </widget>
+   </widget>
+   <widget class="QGroupBox" name="groupBox_9">
+    <property name="geometry">
+     <rect>
+      <x>620</x>
+      <y>0</y>
+      <width>151</width>
+      <height>231</height>
+     </rect>
+    </property>
+    <property name="title">
+     <string>Results of sequence</string>
+    </property>
+    <widget class="QWidget" name="verticalLayoutWidget_5">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>30</y>
+       <width>131</width>
+       <height>191</height>
+      </rect>
+     </property>
+     <layout class="QVBoxLayout" name="verticalLayout_7">
+      <item>
+       <widget class="QLabel" name="xResultsLabel">
+        <property name="text">
+         <string>X-Axis</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QLabel" name="xResults">
+        <property name="text">
+         <string/>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QLabel" name="yResultsLabel">
+        <property name="text">
+         <string>Y-Axis</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QLabel" name="yResults">
+        <property name="text">
+         <string/>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QLabel" name="zResultsLabel">
+        <property name="text">
+         <string>Z-Axis</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QLabel" name="zResults">
+        <property name="text">
+         <string/>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QLabel" name="minErrorLabel">
+        <property name="text">
+         <string>min Error in Win</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QLabel" name="errLabel">
+        <property name="text">
+         <string/>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </widget>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menuBar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>786</width>
+     <height>22</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QToolBar" name="mainToolBar">
+   <attribute name="toolBarArea">
+    <enum>TopToolBarArea</enum>
+   </attribute>
+   <attribute name="toolBarBreak">
+    <bool>false</bool>
+   </attribute>
+  </widget>
+  <widget class="QStatusBar" name="statusBar"/>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <resources/>
+ <connections/>
+</ui>
